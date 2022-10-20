@@ -14,8 +14,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-
-      - name: Run test
         run: npm test --coverage
 
       - name: SonarCloud Scan
